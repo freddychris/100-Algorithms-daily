@@ -58,7 +58,7 @@ function alphabeticShift(inputString: string): string{
   
   for (let i=0; i< inputShifted.length;i++) 
 	{
-	   inputShifter[i] =alphabet[inputShifted[i]];      
+	   inputShifter[i] =alphabet[inputShifted[i]];
 	}
     return inputShifted.join('');
 }
